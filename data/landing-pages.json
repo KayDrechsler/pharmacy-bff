@@ -1,0 +1,203 @@
+[
+  {
+    "slug": "autumn",
+    "title": "Autumn essentials",
+    "description": "Everything you need for the cold season.",
+    "blocks": [
+      {
+        "type": "hero",
+        "id": "autumn-hero",
+        "headline": "Ready for autumn (updated v3)",
+        "subline": "Everything for the cold season.",
+        "ctaLabel": "See all products",
+        "ctaHref": "/",
+        "image": {
+          "src": "/images/hero-autumn.jpg",
+          "alt": "A young fox walks on a forest ground covered in autumn leaves."
+        },
+        "tone": "dark"
+      },
+      {
+        "type": "teaserGrid",
+        "id": "autumn-grid",
+        "title": "Cold and flu",
+        "collection": "autumn-health"
+      }
+    ]
+  },
+  {
+    "slug": "allergy",
+    "title": "Allergy relief",
+    "description": "Relief for hay fever and allergies.",
+    "blocks": [
+      {
+        "type": "hero",
+        "id": "allergy-hero",
+        "headline": "Breathe freely",
+        "subline": "Relief for hay fever and allergies.",
+        "ctaLabel": "See all products",
+        "ctaHref": "/"
+      },
+      {
+        "type": "teaserGrid",
+        "id": "allergy-grid",
+        "title": "Allergy products",
+        "collection": "allergy"
+      }
+    ]
+  },
+  {
+    "slug": "spring",
+    "title": "Spring is finally here",
+    "description": "Lorem ipsum dolor sit amet.",
+    "blocks": [
+      {
+        "type": "hero",
+        "id": "spring-hero",
+        "headline": "Spring is here!",
+        "subline": "Lorem ipsum dolor sit amet.",
+        "ctaLabel": "See all products",
+        "ctaHref": "/"
+      },
+      {
+        "type": "teaserGrid",
+        "id": "spring-grid",
+        "title": "Spring products",
+        "collection": "spring"
+      }
+    ]
+  },
+  {
+    "slug": "cold-guide",
+    "title": "Your guide to cold season",
+    "description": "Practical tips for getting through cold season.",
+    "blocks": [
+      {
+        "type": "hero",
+        "id": "guide-hero",
+        "headline": "Getting through cold season",
+        "subline": "Practical tips, placeholder text for a practice project.",
+        "ctaLabel": "See autumn products",
+        "ctaHref": "/campaign/autumn"
+      },
+      {
+        "type": "richText",
+        "id": "guide-text",
+        "content": [
+          {
+            "type": "heading",
+            "level": 2,
+            "children": [
+              {
+                "type": "text",
+                "text": "Rest and routine"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Getting enough sleep is "
+              },
+              {
+                "type": "text",
+                "text": "really",
+                "bold": true
+              },
+              {
+                "type": "text",
+                "text": " helpful. See our "
+              },
+              {
+                "type": "link",
+                "href": "/campaign/autumn",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "autumn essentials"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "children": [
+              {
+                "type": "text",
+                "text": "Simple habits"
+              }
+            ]
+          },
+          {
+            "type": "list",
+            "ordered": false,
+            "items": [
+              [
+                {
+                  "type": "text",
+                  "text": "Drink enough water"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Wash your hands often"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Air out rooms regularly",
+                  "italic": true
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "type": "faq",
+        "id": "guide-faq",
+        "title": "Frequently asked questions",
+        "items": [
+          {
+            "question": "How long does a cold usually last?",
+            "answer": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Placeholder answer about duration."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "question": "Can I order online?",
+            "answer": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Placeholder answer about ordering."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
