@@ -1,5 +1,6 @@
 import { Controller, Get, NotFoundException, Param } from '@nestjs/common';
 import { LandingPagesService } from './landing-pages.service.js';
+import { SlugParamsDto } from './slug-params.dto.js';
 
 @Controller('landing-pages')
 export class LandingPagesController {
@@ -11,10 +12,10 @@ export class LandingPagesController {
   }
 
   @Get(':slug')
-  async findOne(@Param('slug') slug: string) {
-    const page = await this.landingPages.findOne(slug);
+  async findOne(@Param() params: SlugParamsDto) {
+    const page = await this.landingPages.findOne(params.slug);
     if (!page) {
-      throw new NotFoundException(`No landing page "${slug}"`);
+      throw new NotFoundException(`No landing page "${params.slug}"`);
     }
     return page;
   }
